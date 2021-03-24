@@ -1,0 +1,241 @@
+<Html>
+	<body bgcolor="#D3D3D3">
+		<style>
+			h1 {text-align: center;}
+		</style>
+		<body>
+			<form name="Admission Form" method="get" action="mailto:ayushkansara@gmail.com"
+				onSubmit="window.alert('This form is being sent by email')">
+				
+				<h1>
+				B.TECH ADMISSION FORM
+				</h1>
+				<h3>Candidate Information</h3>
+				<fieldset>
+					<legend> Personal information </legend>
+					<label> First Name </label>
+					<input type="text" placeholder="First Name:" size="15"required/>
+					<label> Middle Name: </label>
+					<input type="text" placeholder="middlename" size="15" required/>
+					<label> Last Name: </label>
+					<input type="text" placeholder="lastname" size="15" required/>
+					<h6>Note:Candidate Name should be same as on class 10 and 12 Marksheet</h6>
+					<h4>Father's Name</h4>
+					<label> First Name </label>
+					<input type="text" placeholder="First Name:" size="15"required/>
+					<label> Middle Name: </label>
+					<input type="text" placeholder="middlename" size="15" required/>
+					<label> Last Name: </label>
+					<input type="text" placeholder="lastname" size="15" required/>
+					<br>
+					<h4>Mother's Name</h4>
+					<label> First Name </label>
+					<input type="text" placeholder="First Name:" size="15"required/>
+					<label> Middle Name: </label>
+					<input type="text" placeholder="middlename" size="15" required/>
+					<label> Last Name: </label>
+					<input type="text" placeholder="lastname" size="15" required/>
+					<br>
+					<br>
+					<label>
+						Address:
+						<input type="text" placeholder="Address" size="45"/> <br> <br>
+					</label>
+					Gender :
+				</label><br>
+				<input type="radio" name="gender"/> Male <br>
+				<input type="radio" name="gender"/> Female <br>
+				<input type="radio" name="gender"/> Other
+				<br>
+				<br>
+				<label>
+					Phone :
+					<input type="int" placeholder="Phone" size="15"/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Email:
+					<input type="text" placeholder="Email" size="50"/> <br> <br>
+					Birthday:&nbsp;
+					<input type="date" name="bday" min="1995-12-31" max="2004-12-31">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="ADHAR"> Adhar Card Number:</label>
+					<input type="text" name="aid" id="ADHAR" required placeholder="Please Enter your 16-digit ADHAR NUMBER"/>
+					<br>
+					<br>
+					<label for="img">Candidate Image:</label>
+					<input type="file" id="img" name="img" accept="image/*">
+					<label for="img">Address Proof:</label>
+					<input type="file" id="img" name="img" accept="image/*">
+					<label for="img">Aadhar Scanned Copy:</label>
+					<input type="file" id="img" name="img" accept="image/*">
+				</fieldset>
+				<br>
+				<br>
+				<h3>Educational Details:</h3>
+				<fieldset>
+					<legend>Educational Details</legend>
+					<h4>SSC DETAILS</h4>
+					<label> ENTER SCHOOL NAME </label>
+					<input type="text" placeholder="SCHOOL NAME:" size="25"required/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label> YEAR OF PASSING: </label>
+					<input type="text" placeholder="Year_of_passing" size="25" required/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label> STATE </label>
+					<input type="text" placeholder="NAme_of_state where school is located" size="25"required/>
+					<br>
+					<br>
+					<label> ENTER CLASS 10 Percentage </label>
+					<input type="text" placeholder="Percentage:" size="20"required/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label> ENTER CLASS 10 Percentile </label>
+					<input type="text" placeholder="Percentile" size="20" required/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label> Grade </label>
+					<select>
+					<value="Grade">Grade</option>
+					<option value="A1">A1</option>
+					<option value="A2">A2</option>
+					<option value="B1">B1</option>
+					<option value="B2">B2</option>
+					<option value="C1">C1</option>
+					<option value="C2">C2</option>
+				</select>
+				<br>
+				<br>
+				<label> Subject_1 </label>
+				<input type="text" placeholder="Subject_1" size="25"required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> Subject_2 </label>
+				<input type="text" placeholder="Subject_2" size="25" required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> Subject_3 </label>
+				<input type="text" placeholder="Subject_1" size="25"required/>
+				<br>
+				<br>
+				<label> Subject_4 </label>
+				<input type="text" placeholder="Subject_4" size="25"required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> Subject_5 </label>
+				<input type="text" placeholder="Subject_5" size="25" required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> Subject_6 </label>
+				<input type="text" placeholder="Subject_6" size="25"required/>
+				<label>CLASS 10 MARKSHEET UPLOAD </label>
+				<input type="file" id="CLASS 10 Marksheet"
+				accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+				<br>
+				<br>
+				<h4>HSC DETAILS</h4>
+				<label> ENTER SCHOOL NAME </label>
+				<input type="text" placeholder="SCHOOL NAME:" size="25"required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> YEAR OF PASSING: </label>
+				<input type="text" placeholder="Year_of_passing" size="25" required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> STATE </label>
+				<input type="text" placeholder="NAme_of_state where school is located" size="25"required/>
+				<br>
+				<br>
+				<label> ENTER CLASS 12 Percentage </label>
+				<input type="text" placeholder="Percentage:" size="20"required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> ENTER CLASS 12 Percentile </label>
+				<input type="text" placeholder="Percentile" size="20" required/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label> Grade </label>
+				<select>
+				<value="Grade">Grade</option>
+				<option value="A1">A1</option>
+				<option value="A2">A2</option>
+				<option value="B1">B1</option>
+				<option value="B2">B2</option>
+				<option value="C1">C1</option>
+				<option value="C2">C2</option>
+			</select>
+			<br>
+			<br>
+			<label> Subject_1 </label>
+			<input type="text" placeholder="Subject_1" size="25"required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> Subject_2 </label>
+			<input type="text" placeholder="Subject_2" size="25" required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> Subject_3 </label>
+			<input type="text" placeholder="Subject_1" size="25"required/>
+			<br>
+			<br>
+			<label> Subject_4 </label>
+			<input type="text" placeholder="Subject_4" size="25"required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> Subject_5 </label>
+			<input type="text" placeholder="Subject_5" size="25" required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> Subject_6 </label>
+			<input type="text" placeholder="Subject_6" size="25"required/>
+			<label>CLASS 12 MARKSHEET UPLOAD </label>
+			<input type="file" id="CLASS 12 Marksheet"
+			accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+			<br>
+			<br>
+			<h4>JEE MAINS DETAILS</h4>
+			<label> JEE MAINS MARKS </label>
+			<input type="text" placeholder="JEE MAINS MARKS:" size="25"required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> JEE MAINS RANK </label>
+			<input type="text" placeholder="JEE MAINS RANK" size="25" required/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label> JEE MAINS PERCENTILE </label>
+			<input type="text" placeholder="JEE MAINS PERCENTILE" size="25"required/><br><br>
+			<label>UPLOAD JEE SCORECARD</label>
+			<input type="file" id="CLASS 12 Marksheet"
+			accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+		</fieldset>
+		<h2>CHOICE FILLING:</h2>
+		<fieldset>
+			<legend>CHOICE FILLING</legend>
+			<h4>COURSES OFFERED:</h4>
+			<ol>
+				<li>Computer Science And Engineering</li>
+				<li>Civil Engineering</li>
+				<li>Electrical Engineering</li>
+				<li>Electronics And Communication Engineering</li>
+				<li>Mechnical Engineering</li>
+			</ol>
+			<label> CHOICE 1 </label>
+			<select>
+			<value="Grade">Choice 1</option>
+			<option value="Choice 1">Choice 1</option>
+			<option value="Computer Science And Engineering">Computer Science And Engineering</option>
+			<option value="Civil Engineering">Civil Engineering</option>
+			<option value="Electrical Engineering">Electrical Engineering</option>
+			<option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+			<option value="Meachnical Engineering">Meachnical Engineering</option>
+		</select>
+		<label> CHOICE 2 </label>
+		<select>
+		<value="Grade">Choice 2</option>
+		<option value="Choice 2">Choice 2</option>
+		<option value="Computer Science And Engineering">Computer Science And Engineering</option>
+		<option value="Civil Engineering">Civil Engineering</option>
+		<option value="Electrical Engineering">Electrical Engineering</option>
+		<option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+		<option value="Meachnical Engineering">Meachnical Engineering</option>
+	</select>
+	<label> CHOICE 3 </label>
+	<select>
+	<value="Grade">Choice 3</option>
+	<option value="Choice 3">Choice 3</option>
+	<option value="Computer Science And Engineering">Computer Science And Engineering</option>
+	<option value="Civil Engineering">Civil Engineering</option>
+	<option value="Electrical Engineering">Electrical Engineering</option>
+	<option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+	<option value="Meachnical Engineering">Meachnical Engineering</option>
+</select>
+</fieldset>
+<input type="checkbox" name="Declaration" value="Declaration" required>
+I hereby confirm that all the details are correct according to me and i agree to all the terms and conditions of the University
+<br><br>
+<button type="submit" value="Submit">Submit</button>
+
+</body>
+</html>
